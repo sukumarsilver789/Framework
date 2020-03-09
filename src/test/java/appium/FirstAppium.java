@@ -38,6 +38,8 @@ public class FirstAppium {
 		ADriver.findElement(By.id("android:id/button1")).click();
 		//ADriver.		
 		ADriver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Accessibility\"]")).click();
+//		ADriver.
+	
 	}
 
 }

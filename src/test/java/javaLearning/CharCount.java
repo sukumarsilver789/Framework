@@ -10,11 +10,12 @@ public class CharCount {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		CharCount cc = new CharCount();
-		cc.charCount("I am an Indian");
+		//CharCount cc = new CharCount();
+		CharCount.charCount("I am an Indian");
 	}
+
 	
-	public void charCount(String sInput) {
+	public  static void charCount(String sInput) {
 		
 		HashMap<Character, Integer> hs= new HashMap<Character, Integer>();
 		for(int i=0;i<sInput.length();i++) {
@@ -31,6 +32,7 @@ public class CharCount {
 		while(it.hasNext()) {
 			Map.Entry me = (Map.Entry)it.next();			
 			System.out.println("Key:"+me.getKey()+" , value:"+me.getValue());
+
 		}		
 		System.out.println(hs);
 	}

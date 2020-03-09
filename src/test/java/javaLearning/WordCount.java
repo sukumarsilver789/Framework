@@ -9,11 +9,11 @@ public class WordCount {
 	public static void main(String[] args) {
 		
 		String str1="Hello this is java program for word count";
-		WordCount wc = new WordCount();
-		System.out.println(wc.wordCount(str1));
+	
+		System.out.println(WordCount.wordCount(str1));
 	}
 	
-	public int wordCount(String sInput) {
+	public static int wordCount(String sInput) {
 		
 		int Count=0;
 		int state=OUT;

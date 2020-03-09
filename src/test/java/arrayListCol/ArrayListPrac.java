@@ -16,7 +16,7 @@ public class ArrayListPrac {
 		VectorData vd2 = new VectorData(2,"Sukumar2","a",subjects1);
 		VectorData vd3 = new VectorData(3,"Sukumar3","a",subjects2);
 		
-		vd1.getId();
+		//vd1.getId();
 		ArrayList<VectorData> AL = new ArrayList<VectorData>();
 		AL.add(vd1);
 		AL.add(vd2);
@@ -34,13 +34,14 @@ public class ArrayListPrac {
 		ll.add(3);
 		ll.add("test2");
 		ll.addFirst("test0");
-		
+		//ll.
 		System.out.print(ll);
 		
 		ListIterator li = ll.listIterator(ll.size());
 		while(li.hasPrevious()) {
 			System.out.println(li.previous());
 		}
+		
+		System.out.println(Math.abs(100-200)+Math.abs(200-100));
 	}
-
 }

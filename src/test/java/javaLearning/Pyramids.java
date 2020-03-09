@@ -4,13 +4,13 @@ public class Pyramids {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Pyramids py = new Pyramids();
-		py.printPyramid(19);
+		
+		Pyramids.printPyramid(19);
 
 
 	}
 	
-	public void printPyramid(int n) {
+	public static void printPyramid(int n) {
 		
 		//Half pyramid
 		for(int i=0;i<n; i++) {
